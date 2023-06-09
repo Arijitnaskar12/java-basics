@@ -71,8 +71,19 @@ public static void main(String args[])
 // int b=10;
 // System.out.println(((a>b) || (a==b)));
 // assignment operators(+=,-=,*=,/=,%=)
-int a=10;
-System.out.println(a-=1);
+// int a=10;
+// System.out.println(a-=1);
+
+// }
+// conditional statements
+for(int i=1;i<=5;i++)
+{
+  for(int j=1;j<=i;j++)
+  {
+    System.out.print("*"+" ");
+  }
+  System.out.println();
+}
 
 }
 }
